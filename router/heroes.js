@@ -1,6 +1,6 @@
 const express = require("express");//requiero express
 const router = express.Router();// asigo la funcion Router a una variable
-const heroesControlller =require("../controllers/heroesController")
+const heroesControlller = require("../controllers/heroesController")
 
 // Ruta Raíz / ➝ Home
 router.get('/',heroesControlller.index);
